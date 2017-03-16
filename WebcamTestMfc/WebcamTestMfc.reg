@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\WebcamTestMfc.Application = WebcamTestMfc Application
+
+
+HKEY_CLASSES_ROOT\WebcamTestMfc.Application\CLSID = {C0B4B066-DF21-4C5D-AF65-28C799EEEF82}
+
+HKEY_CLASSES_ROOT\CLSID\{C0B4B066-DF21-4C5D-AF65-28C799EEEF82} = WebcamTestMfc Application
+HKEY_CLASSES_ROOT\CLSID\{C0B4B066-DF21-4C5D-AF65-28C799EEEF82}\ProgId = WebcamTestMfc.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{C0B4B066-DF21-4C5D-AF65-28C799EEEF82}\LocalServer32 = WebcamTestMfc.EXE

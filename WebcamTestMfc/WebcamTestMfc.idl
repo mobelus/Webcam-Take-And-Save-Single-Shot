@@ -1,0 +1,29 @@
+// WebcamTestMfc.idl : type library source for WebcamTestMfc.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (WebcamTestMfc.tlb).
+
+[ uuid(CAAA5626-B74A-4A00-AF94-0F7EBCD82C4A), version(1.0) ]
+library WebcamTestMfc
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CWebcamTestMfcDoc
+	
+	[ uuid(7523AA71-9DE0-45F9-AF43-80CC3BD22E4A) ]
+	dispinterface IWebcamTestMfc
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CWebcamTestMfcDoc
+	
+	[ uuid(C0B4B066-DF21-4C5D-AF65-28C799EEEF82) ]
+	coclass WebcamTestMfc
+	{
+		[default] dispinterface IWebcamTestMfc;
+	};
+};
